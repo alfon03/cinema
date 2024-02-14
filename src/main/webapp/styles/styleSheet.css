@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+.mainWrap{
+	  width: 70%;
+	  text-align: center;
+	  margin-top: -100px;
+	  margin-left: auto;	
+	  margin-right: auto;
+	  padding-top: 50px;
+	  width: 40%;
+	  min-width: 400px;
+}
+input.form-control{
+margin: 10px;
+}
+div.buttonWrapper{
+	width: 100%;
+	text-align: left;
+	margin-top: 10px
+}
+
+.errorMessage, .okMessage {
+	background-color: indianred;
+	margin-left: auto; margin-right: auto;
+	min-width: fit-content;
+	max-width: 500px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.okMessage {
+	background-color: palegreen;
+}
+
+header {
+	.global-header {
+		background: #152633;
+		color: #fff;
+		padding: 15px 0;
+		font-size: 1rem;
+	}
+
+	.local-header {
+		background: #0C1419;
+		font-size: 1.25rem;
+	}
+}
+
+a.linkMainMenu{
+	color: #404040;
+	text-decoration: none;
+	text-justify: auto;
+
+}
+
+
+h3.linkMainMenu{
+	transition: 0.3s;
+	text-justify: auto;
+	text-align: center;
+	width:40%;
+	min-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 5px;
+}
+h3.linkMainMenu:hover{
+	background-color: #CBCDCC;
+}
+
+thead tr th{
+	vertical-align: middle;
+}
+
+.userImg {
+	width: 50px;
+
+}
+
+.imgContainer {
+	display: flex;
+	justify-content: end;
+	margin: 20px 20px;
+}
+
